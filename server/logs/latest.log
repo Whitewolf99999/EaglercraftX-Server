@@ -1,246 +1,263 @@
-[18:52:28] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[18:52:28] [Server thread/INFO]: Loading properties
-[18:52:28] [Server thread/INFO]: Default game type: SURVIVAL
-[18:52:28] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[18:52:28] [Server thread/INFO]: Unable to find file banned-players.json, creating it.
-[18:52:28] [Server thread/INFO]: Unable to find file banned-ips.json, creating it.
-[18:52:28] [Server thread/INFO]: Unable to find file ops.json, creating it.
-[18:52:28] [Server thread/INFO]: Unable to find file whitelist.json, creating it.
-[18:52:28] [Server thread/INFO]: Debug logging is disabled
-[18:52:28] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
-[18:52:28] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:54:47] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[13:54:47] [Server thread/INFO]: Loading properties
+[13:54:47] [Server thread/INFO]: Default game type: SURVIVAL
+[13:54:47] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[13:54:47] [Server thread/INFO]: Debug logging is disabled
+[13:54:47] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[13:54:47] [Server thread/INFO]: Server Ping Player Sample Count: 12
 
-[18:52:28] [Server thread/INFO]: Using 4 threads for Netty based IO
-[18:52:28] [Server thread/INFO]: Data value allowed items: 
-[18:52:28] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+[13:54:47] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:54:48] [Server thread/INFO]: Data value allowed items: 
+[13:54:48] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
 
-[18:52:28] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+[13:54:48] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
 
-[18:52:28] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+[13:54:48] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
 
-[18:52:28] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[13:54:48] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 
-[18:52:28] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[13:54:48] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 
-[18:52:28] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+[13:54:48] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
 
-[18:52:28] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+[13:54:48] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
 
-[18:52:28] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+[13:54:48] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
 
-[18:52:28] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+[13:54:48] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
 
-[18:52:28] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[13:54:48] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
-[18:52:28] [Server thread/INFO]: Generating keypair
-[18:52:29] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[18:52:29] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
-[18:52:29] [Server thread/INFO]: Using default channel type
-[18:52:29] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[18:52:29] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
-[18:52:29] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
-[18:52:29] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
-[18:52:29] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
-[18:52:29] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.1.0
-[18:52:30] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
-[18:52:30] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.1.0
-[18:52:30] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18:52:30] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[18:52:30] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[18:52:30] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
-[18:52:30] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[18:52:30] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[18:52:30] [Server thread/INFO]: Preparing level "world"
-[18:52:30] [Server thread/INFO]: -------- World Settings For [world] --------
-[18:52:30] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[18:52:30] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[18:52:30] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[18:52:30] [Server thread/INFO]: Random Lighting Updates: false
-[18:52:30] [Server thread/INFO]: Structure Info Saving: true
-[18:52:30] [Server thread/INFO]: Sending up to 10 chunks per packet
-[18:52:30] [Server thread/INFO]: Max Entity Collisions: 8
-[18:52:30] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[18:52:30] [Server thread/INFO]: Max TNT Explosions: 100
-[18:52:30] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[18:52:30] [Server thread/INFO]: Mob Spawn Range: 4
-[18:52:30] [Server thread/INFO]: Anti X-Ray: true
-[18:52:30] [Server thread/INFO]: 	Engine Mode: 1
-[18:52:30] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[18:52:30] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[18:52:30] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[18:52:30] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[18:52:30] [Server thread/INFO]: Cane Growth Modifier: 100%
-[18:52:30] [Server thread/INFO]: Melon Growth Modifier: 100%
-[18:52:30] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[18:52:30] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[18:52:30] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[18:52:30] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[18:52:30] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[18:52:30] [Server thread/INFO]: Item Despawn Rate: 6000
-[18:52:30] [Server thread/INFO]: Item Merge Radius: 2.5
-[18:52:30] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[18:52:30] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[18:52:30] [Server thread/INFO]: View Distance: 4
-[18:52:30] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[18:52:30] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[18:52:30] [Server thread/INFO]: Clear tick list: false
-[18:52:30] [Server thread/INFO]: Experience Merge Radius: 3.0
-[18:52:30] [Server thread/INFO]: -------- World Settings For [world] --------
-[18:52:30] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[18:52:30] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[18:52:30] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[18:52:30] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[18:52:30] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[18:52:30] [Server thread/INFO]: Water over lava flow speed: 5
-[18:52:30] [Server thread/INFO]: Fix TNT cannons: false
-[18:52:30] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[18:52:30] [Server thread/INFO]: Keep spawn chunk loaded: true
-[18:52:30] [Server thread/INFO]: World async lighting: false
-[18:52:30] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[18:52:30] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[18:52:32] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[18:52:32] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[18:52:32] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[18:52:32] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[18:52:32] [Server thread/INFO]: Random Lighting Updates: false
-[18:52:32] [Server thread/INFO]: Structure Info Saving: true
-[18:52:32] [Server thread/INFO]: Sending up to 10 chunks per packet
-[18:52:32] [Server thread/INFO]: Max Entity Collisions: 8
-[18:52:32] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[18:52:32] [Server thread/INFO]: Max TNT Explosions: 100
-[18:52:32] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[18:52:32] [Server thread/INFO]: Mob Spawn Range: 4
-[18:52:32] [Server thread/INFO]: Anti X-Ray: true
-[18:52:32] [Server thread/INFO]: 	Engine Mode: 1
-[18:52:32] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[18:52:32] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[18:52:32] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[18:52:32] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[18:52:32] [Server thread/INFO]: Cane Growth Modifier: 100%
-[18:52:32] [Server thread/INFO]: Melon Growth Modifier: 100%
-[18:52:32] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[18:52:32] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[18:52:32] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[18:52:32] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[18:52:32] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[18:52:32] [Server thread/INFO]: Item Despawn Rate: 6000
-[18:52:32] [Server thread/INFO]: Item Merge Radius: 2.5
-[18:52:32] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[18:52:32] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[18:52:32] [Server thread/INFO]: View Distance: 4
-[18:52:32] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[18:52:32] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[18:52:32] [Server thread/INFO]: Clear tick list: false
-[18:52:32] [Server thread/INFO]: Experience Merge Radius: 3.0
-[18:52:32] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[18:52:32] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[18:52:32] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[18:52:32] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[18:52:32] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[18:52:32] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[18:52:32] [Server thread/INFO]: Water over lava flow speed: 5
-[18:52:32] [Server thread/INFO]: Fix TNT cannons: false
-[18:52:32] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[18:52:32] [Server thread/INFO]: Keep spawn chunk loaded: true
-[18:52:32] [Server thread/INFO]: World async lighting: false
-[18:52:32] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[18:52:32] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[18:52:32] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[18:52:32] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[18:52:32] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[18:52:32] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[18:52:32] [Server thread/INFO]: Random Lighting Updates: false
-[18:52:32] [Server thread/INFO]: Structure Info Saving: true
-[18:52:32] [Server thread/INFO]: Sending up to 10 chunks per packet
-[18:52:32] [Server thread/INFO]: Max Entity Collisions: 8
-[18:52:32] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[18:52:32] [Server thread/INFO]: Max TNT Explosions: 100
-[18:52:32] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[18:52:32] [Server thread/INFO]: Mob Spawn Range: 4
-[18:52:32] [Server thread/INFO]: Anti X-Ray: true
-[18:52:32] [Server thread/INFO]: 	Engine Mode: 1
-[18:52:32] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[18:52:32] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[18:52:32] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[18:52:32] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[18:52:32] [Server thread/INFO]: Cane Growth Modifier: 100%
-[18:52:32] [Server thread/INFO]: Melon Growth Modifier: 100%
-[18:52:32] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[18:52:32] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[18:52:32] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[18:52:32] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[18:52:32] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[18:52:32] [Server thread/INFO]: Item Despawn Rate: 6000
-[18:52:32] [Server thread/INFO]: Item Merge Radius: 2.5
-[18:52:32] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[18:52:32] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[18:52:32] [Server thread/INFO]: View Distance: 4
-[18:52:32] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[18:52:32] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[18:52:32] [Server thread/INFO]: Clear tick list: false
-[18:52:32] [Server thread/INFO]: Experience Merge Radius: 3.0
-[18:52:32] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[18:52:32] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[18:52:32] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[18:52:32] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[18:52:32] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[18:52:32] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[18:52:32] [Server thread/INFO]: Water over lava flow speed: 5
-[18:52:32] [Server thread/INFO]: Fix TNT cannons: false
-[18:52:32] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[18:52:32] [Server thread/INFO]: Keep spawn chunk loaded: true
-[18:52:32] [Server thread/INFO]: World async lighting: false
-[18:52:32] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[18:52:32] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[18:52:32] [Server thread/INFO]: Preparing start region for level 0 (Seed: -4387481741720702698)
-[18:52:33] [Server thread/INFO]: Preparing start region for level 1 (Seed: -4387481741720702698)
-[18:52:34] [Server thread/INFO]: Preparing spawn area: 11%
-[18:52:35] [Server thread/INFO]: Preparing spawn area: 36%
-[18:52:36] [Server thread/INFO]: Preparing spawn area: 56%
-[18:52:37] [Server thread/INFO]: Preparing spawn area: 76%
-[18:52:38] [Server thread/INFO]: Preparing spawn area: 93%
-[18:52:38] [Server thread/INFO]: Preparing start region for level 2 (Seed: -4387481741720702698)
-[18:52:39] [Server thread/INFO]: Preparing spawn area: 36%
-[18:52:40] [Server thread/INFO]: Preparing spawn area: 99%
-[18:52:40] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
-[18:52:40] [Server thread/INFO]: [ClearLag] Using version-adapter: LegacyVersionAdapter
-[18:52:40] [Server thread/INFO]: [ClearLag] Config not found. Generating default config...
-[18:52:40] [Server thread/INFO]: [ClearLag] Loading modules...
-[18:52:40] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[18:52:40] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[18:52:40] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[18:52:40] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
-[18:52:40] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+[13:54:48] [Server thread/INFO]: Generating keypair
+[13:54:48] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[13:54:48] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[13:54:48] [Server thread/INFO]: Using default channel type
+[13:54:48] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[13:54:48] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
+[13:54:48] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[13:54:48] [Server thread/INFO]: [BedWars] Loading BedWars v0.2.31
+[13:54:48] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[13:54:48] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[13:54:48] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.1.0
+[13:54:49] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[13:54:49] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.1.0
+[13:54:49] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:54:49] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:54:49] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[13:54:49] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[13:54:49] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:54:49] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[13:54:49] [Server thread/INFO]: Preparing level "world"
+[13:54:49] [Server thread/INFO]: -------- World Settings For [world] --------
+[13:54:49] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[13:54:49] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:54:49] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[13:54:49] [Server thread/INFO]: Random Lighting Updates: false
+[13:54:49] [Server thread/INFO]: Structure Info Saving: true
+[13:54:49] [Server thread/INFO]: Sending up to 10 chunks per packet
+[13:54:49] [Server thread/INFO]: Max Entity Collisions: 8
+[13:54:49] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[13:54:49] [Server thread/INFO]: Max TNT Explosions: 100
+[13:54:49] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:54:49] [Server thread/INFO]: Mob Spawn Range: 4
+[13:54:49] [Server thread/INFO]: Anti X-Ray: true
+[13:54:49] [Server thread/INFO]: 	Engine Mode: 1
+[13:54:49] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[13:54:49] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[13:54:49] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:54:49] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:54:49] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:54:49] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:54:49] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:54:49] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:54:49] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:54:49] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:54:49] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:54:49] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:54:49] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:54:49] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[13:54:49] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:54:49] [Server thread/INFO]: View Distance: 4
+[13:54:49] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:54:49] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[13:54:49] [Server thread/INFO]: Clear tick list: false
+[13:54:49] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:54:49] [Server thread/INFO]: -------- World Settings For [world] --------
+[13:54:49] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[13:54:49] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[13:54:49] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[13:54:49] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[13:54:49] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[13:54:49] [Server thread/INFO]: Water over lava flow speed: 5
+[13:54:49] [Server thread/INFO]: Fix TNT cannons: false
+[13:54:49] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[13:54:49] [Server thread/INFO]: Keep spawn chunk loaded: true
+[13:54:49] [Server thread/INFO]: World async lighting: false
+[13:54:49] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[13:54:49] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[13:54:50] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[13:54:50] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[13:54:50] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:54:50] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[13:54:50] [Server thread/INFO]: Random Lighting Updates: false
+[13:54:50] [Server thread/INFO]: Structure Info Saving: true
+[13:54:50] [Server thread/INFO]: Sending up to 10 chunks per packet
+[13:54:50] [Server thread/INFO]: Max Entity Collisions: 8
+[13:54:50] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[13:54:50] [Server thread/INFO]: Max TNT Explosions: 100
+[13:54:50] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:54:50] [Server thread/INFO]: Mob Spawn Range: 4
+[13:54:50] [Server thread/INFO]: Anti X-Ray: true
+[13:54:50] [Server thread/INFO]: 	Engine Mode: 1
+[13:54:50] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[13:54:50] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[13:54:50] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:54:50] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:54:50] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:54:50] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:54:50] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:54:50] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:54:50] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:54:50] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:54:50] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:54:50] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:54:50] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:54:50] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[13:54:50] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:54:50] [Server thread/INFO]: View Distance: 4
+[13:54:50] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:54:50] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[13:54:50] [Server thread/INFO]: Clear tick list: false
+[13:54:50] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:54:50] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[13:54:50] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[13:54:50] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[13:54:50] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[13:54:50] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[13:54:50] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[13:54:50] [Server thread/INFO]: Water over lava flow speed: 5
+[13:54:50] [Server thread/INFO]: Fix TNT cannons: false
+[13:54:50] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[13:54:50] [Server thread/INFO]: Keep spawn chunk loaded: true
+[13:54:50] [Server thread/INFO]: World async lighting: false
+[13:54:50] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[13:54:50] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[13:54:50] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[13:54:50] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[13:54:50] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:54:50] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[13:54:50] [Server thread/INFO]: Random Lighting Updates: false
+[13:54:50] [Server thread/INFO]: Structure Info Saving: true
+[13:54:50] [Server thread/INFO]: Sending up to 10 chunks per packet
+[13:54:50] [Server thread/INFO]: Max Entity Collisions: 8
+[13:54:50] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[13:54:50] [Server thread/INFO]: Max TNT Explosions: 100
+[13:54:50] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:54:50] [Server thread/INFO]: Mob Spawn Range: 4
+[13:54:50] [Server thread/INFO]: Anti X-Ray: true
+[13:54:50] [Server thread/INFO]: 	Engine Mode: 1
+[13:54:50] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[13:54:50] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[13:54:50] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:54:50] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:54:50] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:54:50] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:54:50] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:54:50] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:54:50] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:54:50] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:54:50] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:54:50] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:54:50] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:54:50] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[13:54:50] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:54:50] [Server thread/INFO]: View Distance: 4
+[13:54:50] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:54:50] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[13:54:50] [Server thread/INFO]: Clear tick list: false
+[13:54:50] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:54:50] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[13:54:50] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[13:54:50] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[13:54:50] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[13:54:50] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[13:54:50] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[13:54:50] [Server thread/INFO]: Water over lava flow speed: 5
+[13:54:50] [Server thread/INFO]: Fix TNT cannons: false
+[13:54:50] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[13:54:50] [Server thread/INFO]: Keep spawn chunk loaded: true
+[13:54:50] [Server thread/INFO]: World async lighting: false
+[13:54:50] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[13:54:50] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[13:54:50] [Server thread/INFO]: Preparing start region for level 0 (Seed: 222985636178740805)
+[13:54:50] [Server thread/INFO]: Preparing start region for level 1 (Seed: 222985636178740805)
+[13:54:51] [Server thread/INFO]: Preparing start region for level 2 (Seed: 222985636178740805)
+[13:54:52] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[13:54:52] [Server thread/INFO]: [ClearLag] Using version-adapter: LegacyVersionAdapter
+[13:54:52] [Server thread/INFO]: [ClearLag] Loading modules...
+[13:54:52] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[13:54:52] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[13:54:52] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[13:54:52] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[13:54:52] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
 
-[18:52:40] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+[13:54:52] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
 
-[18:52:40] [Thread-6/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.8]...
-[18:52:40] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
-[18:52:40] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
-[18:52:40] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
-[18:52:41] [Server thread/INFO]: WEPIF: Updated config file
-[18:52:41] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[18:52:41] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
-[18:52:41] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
-[18:52:41] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[18:52:41] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[18:52:41] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[18:52:41] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[18:52:41] [Server thread/INFO]: Done (10.856s)! For help, type "help" or "?"
-[18:52:41] [Server thread/INFO]: Timings Reset
-[18:52:41] [Thread-6/INFO]: [ClearLag] No updates found!
-[18:52:41] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+[13:54:52] [Thread-6/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.8]...
+[13:54:52] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[13:54:52] [Server thread/INFO]: [BedWars] Enabling BedWars v0.2.31
+[13:54:52] [Server thread/INFO]: [BedWars] Successfully loaded messages for BedWars! Language: English
+[13:54:52] [Server thread/INFO]: [BedWars] Loading statistics from YAML-File ...
+[13:54:52] [Server thread/INFO]: [0;36;1m============[0;31;1m===[0;37;1m======  by ScreamingSandals <Misat11, Iamceph, Pronze>[m
 
-[18:52:41] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+[13:54:52] [Server thread/INFO]: [0;36;1m+ Screaming [0;31;1mBed[0;37;1mWars +  [0;33;22mVersion: 0.2.31 [0;32;1mFREE[m
 
-[18:52:41] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+[13:54:52] [Server thread/INFO]: [0;36;1m============[0;31;1m===[0;37;1m======  [0;32;1mSTABLE VERSION[m
 
-[18:52:42] [Server thread/INFO]: [0;33;1m[ProtocolLib] The updater found an update: 5.2.0 (Running 5.1.0). Download at https://www.spigotmc.org/resources/protocollib.1997/[m
+[13:54:52] [Server thread/INFO]: [0;31;1m[B[0;37;1mW] [0;33;1mYou are using version 1.8! While this version is supported, it is a very old version and some features may not work as expected. Consider upgrading your server.[m
 
-[18:53:24] [Thread-9/INFO]: UUID of player Refif is 8a1c397c-4578-3837-9c12-d19b9b0d6f8a
-[18:53:25] [Server thread/INFO]: Refif[/[0:0:0:0:0:0:0:1]:43602] logged in with entity id 26 at ([world]-168.0, 4.0, 378.0)
-[18:53:25] [Craft Scheduler Thread - 0/WARN]: [LoginSecurity] Failed to set inventory id in profile
-[18:53:25] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+[13:54:52] [Server thread/INFO]: [0;37;1mEverything is loaded! If you like our work, consider visiting our Patreon! <3[m
+
+[13:54:52] [Server thread/INFO]: [0;37;1mhttps://www.patreon.com/screamingsandals[m
+
+[13:54:52] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[13:54:52] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[13:54:53] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[13:54:53] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[13:54:53] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[13:54:53] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[13:54:53] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[13:54:53] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[13:54:53] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[13:54:53] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:54:53] [Thread-6/WARN]: [ClearLag] Clearlag failed to check for updates - bukkit may be down
+[13:54:53] [Thread-6/WARN]: java.lang.NullPointerException: Cannot invoke "org.json.simple.JSONObject.get(Object)" because "line" is null
+
+[13:54:53] [Thread-6/WARN]: 	at me.minebuilders.clearlag.BukkitUpdater.updateAvailable(BukkitUpdater.java:59)
+
+[13:54:53] [Thread-6/WARN]: 	at me.minebuilders.clearlag.BukkitUpdater.run(BukkitUpdater.java:82)
+
+[13:54:53] [Thread-6/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[13:54:53] [Server thread/INFO]: Done (3.897s)! For help, type "help" or "?"
+[13:54:53] [Server thread/INFO]: Timings Reset
+[13:54:54] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+
+[13:54:54] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+
+[13:54:54] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+
+[13:54:54] [Server thread/INFO]: [0;33;1m[ProtocolLib] The updater found an update: 5.2.0 (Running 5.1.0). Download at https://www.spigotmc.org/resources/protocollib.1997/[m
+
+[13:55:36] [Thread-9/INFO]: UUID of player Refif is 8a1c397c-4578-3837-9c12-d19b9b0d6f8a
+[13:55:36] [Server thread/INFO]: Refif[/[0:0:0:0:0:0:0:1]:35902] logged in with entity id 80 at ([world]1105.0, 4.0, -712.0)
+[13:55:43] [pool-4-thread-1/WARN]: [LoginSecurity] Updater was in unexpected state, please report on https://github.com/lenis0012/LoginSecurity-2/issues
+[13:56:48] [Server thread/INFO]: Refif issued server command: /op Tedo_Burrito
+[13:56:48] [Server thread/INFO]: [Refif: Opped Tedo_Burrito]
+[13:56:55] [Thread-10/INFO]: UUID of player Tedo_Burrito is 138c174b-a8d9-3615-8acd-97b882e81619
+[13:56:55] [Server thread/INFO]: Tedo_Burrito[/[0:0:0:0:0:0:0:1]:51498] logged in with entity id 368 at ([world]1105.0, 4.0, -712.0)
+[13:56:55] [Craft Scheduler Thread - 3/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[13:56:55] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
 java.sql.SQLException: Failed set location id in profile
 	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
 	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
@@ -250,5 +267,401 @@ java.sql.SQLException: Failed set location id in profile
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[18:53:38] [Server thread/INFO]: Refif issued server command: /plugins
-[18:53:40] [Server thread/INFO]: Refif has just earned the achievement [Taking Inventory]
+[13:57:01] [Server thread/INFO]: Refif issued server command: /op Tedo_Burrito
+[13:57:01] [Server thread/INFO]: [Refif: Opped Tedo_Burrito]
+[13:57:02] [Server thread/INFO]: Refif issued server command: /op Tedo_Burrito
+[13:57:02] [Server thread/INFO]: [Refif: Opped Tedo_Burrito]
+[13:57:03] [pool-4-thread-3/WARN]: [LoginSecurity] Updater was in unexpected state, please report on https://github.com/lenis0012/LoginSecurity-2/issues
+[13:57:05] [Server thread/INFO]: Tedo_Burrito fell out of the world
+[13:57:11] [Server thread/INFO]: Tedo_Burrito fell out of the world
+[13:57:13] [Server thread/INFO]: Refif issued server command: /tp Tedo_Burrito Refif
+[13:57:13] [Server thread/INFO]: [Refif: Teleported Tedo_Burrito to Refif]
+[13:57:17] [Server thread/INFO]: Tedo_Burrito issued server command: /gamemode creative
+[13:57:17] [Server thread/INFO]: [Tedo_Burrito: Set own game mode to Creative Mode]
+[13:57:20] [Server thread/INFO]: Tedo_Burrito has just earned the achievement [Taking Inventory]
+[13:58:11] [Thread-11/INFO]: UUID of player Redyr_tsziw is 6336fb35-6e56-3e4d-a0ef-a69c35ca53a9
+[13:58:12] [Server thread/INFO]: Redyr_tsziw[/[0:0:0:0:0:0:0:1]:34902] logged in with entity id 876 at ([world]1105.0, 4.0, -712.0)
+[13:58:12] [Craft Scheduler Thread - 4/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[13:58:12] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+java.sql.SQLException: Failed set location id in profile
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[13:58:23] [Server thread/INFO]: Redyr_tsziw fell out of the world
+[13:58:29] [Server thread/INFO]: Refif issued server command: /tp Redyr_Tsziw
+[13:58:29] [Server thread/INFO]: [Refif: Teleported Refif to Redyr_tsziw]
+[13:58:30] [Server thread/INFO]: Redyr_tsziw fell out of the world
+[13:58:31] [Server thread/INFO]: Refif fell out of the world
+[13:58:36] [Server thread/INFO]: Redyr_tsziw fell out of the world
+[13:58:42] [Server thread/INFO]: Redyr_tsziw fell out of the world
+[13:58:42] [Server thread/INFO]: Refif issued server command: /tp REfif Tedo_Burrito
+[13:58:42] [Server thread/INFO]: [Refif: Teleported Refif to Tedo_Burrito]
+[13:58:47] [Server thread/INFO]: Redyr_tsziw issued server command: /back
+[13:58:48] [Server thread/INFO]: Redyr_tsziw fell out of the world
+[13:58:49] [Server thread/INFO]: Refif issued server command: /tp Redyr_Tsziw refif
+[13:58:53] [Server thread/INFO]: Redyr_tsziw issued server command: /tpa Refif
+[13:58:55] [Server thread/INFO]: Redyr_tsziw fell out of the world
+[13:58:56] [Server thread/INFO]: Refif issued server command: /tpaccept
+[13:59:02] [Server thread/INFO]: Redyr_tsziw issued server command: /gamemode creative
+[13:59:02] [Server thread/INFO]: Redyr_tsziw fell out of the world
+[13:59:03] [Server thread/INFO]: Refif issued server command: /op Redyr_Tsziw
+[13:59:03] [Server thread/INFO]: [Refif: Opped Redyr_Tsziw]
+[13:59:09] [Server thread/INFO]: Redyr_tsziw issued server command: /gamemode crative
+[13:59:09] [Server thread/INFO]: [Redyr_tsziw: 'crative' is not a valid number]
+[13:59:09] [Server thread/INFO]: Redyr_tsziw fell out of the world
+[13:59:13] [Server thread/INFO]: Redyr_tsziw has just earned the achievement [Taking Inventory]
+[13:59:14] [Server thread/INFO]: Refif issued server command: /tp Redyr_tsziw refif
+[13:59:14] [Server thread/INFO]: [Refif: Teleported Redyr_tsziw to Refif]
+[13:59:15] [Server thread/INFO]: Redyr_tsziw fell from a high place
+[13:59:18] [Server thread/INFO]: Refif issued server command: /tp Redyr_tsziw refif
+[13:59:18] [Server thread/INFO]: [Refif: Teleported Redyr_tsziw to Refif]
+[13:59:18] [Server thread/INFO]: Redyr_tsziw fell from a high place
+[13:59:21] [Server thread/INFO]: Refif issued server command: /tp Redyr_tsziw refif
+[13:59:22] [Server thread/INFO]: Refif issued server command: /tp Redyr_tsziw refif
+[13:59:22] [Server thread/INFO]: [Refif: Teleported Redyr_tsziw to Refif]
+[14:00:01] [Server thread/INFO]: Redyr_tsziw issued server command: /gamemode 1
+[14:00:01] [Server thread/INFO]: [Redyr_tsziw: Set own game mode to Creative Mode]
+[14:01:22] [Server thread/INFO]: Refif issued server command: /bw help
+[14:02:22] [Thread-13/INFO]: UUID of player B1_28 is e57ce2e0-799d-33c4-b070-6338735c1d42
+[14:02:22] [Server thread/INFO]: B1_28[/[0:0:0:0:0:0:0:1]:35492] logged in with entity id 12976 at ([world]1130.7953540961473, 45.726333995168744, -678.3021439828974)
+[14:02:32] [pool-4-thread-5/WARN]: [LoginSecurity] Updater was in unexpected state, please report on https://github.com/lenis0012/LoginSecurity-2/issues
+[14:02:37] [Server thread/INFO]: Redyr_tsziw issued server command: /give Redyr_tsziw barrier
+[14:02:37] [Server thread/INFO]: [Redyr_tsziw: Given [Barrier] * 1 to Redyr_tsziw]
+[14:06:23] [Server thread/INFO]: Refif issued server command: /time set day
+[14:06:23] [Server thread/INFO]: [Refif: Set the time to 1000]
+[14:09:18] [Server thread/INFO]: Refif issued server command: /give Refif Barrier
+[14:09:18] [Server thread/INFO]: [Refif: There is no such item with name minecraft:Barrier]
+[14:09:37] [Server thread/INFO]: Redyr_tsziw issued server command: /give Refif barrier
+[14:09:37] [Server thread/INFO]: [Redyr_tsziw: Given [Barrier] * 1 to Refif]
+[14:10:29] [Server thread/INFO]: Redyr_tsziw lost connection: Disconnected
+[14:10:29] [Server thread/INFO]: Redyr_tsziw left the game.
+[14:10:41] [Server thread/INFO]: Refif lost connection: Disconnected
+[14:10:41] [Server thread/INFO]: Refif left the game.
+[14:10:41] [Server thread/INFO]: Tedo_Burrito lost connection: Disconnected
+[14:10:41] [Server thread/INFO]: Tedo_Burrito left the game.
+[14:13:10] [Thread-14/INFO]: UUID of player Refif is 8a1c397c-4578-3837-9c12-d19b9b0d6f8a
+[14:13:10] [Server thread/INFO]: Refif[/[0:0:0:0:0:0:0:1]:40212] logged in with entity id 93252 at ([world]1105.0, 4.0, -712.0)
+[14:13:15] [pool-4-thread-6/WARN]: [LoginSecurity] Updater was in unexpected state, please report on https://github.com/lenis0012/LoginSecurity-2/issues
+[14:13:46] [Server thread/INFO]: Refif issued server command: /give Refif Barrier
+[14:13:46] [Server thread/INFO]: [Refif: There is no such item with name minecraft:Barrier]
+[14:14:06] [Server thread/INFO]: Refif issued server command: /give Refif barrier
+[14:14:06] [Server thread/INFO]: [Refif: Given [Barrier] * 1 to Refif]
+[14:18:16] [Server thread/INFO]: B1_28 lost connection: Disconnected
+[14:18:16] [Server thread/INFO]: B1_28 left the game.
+[14:19:32] [Server thread/INFO]: Refif issued server command: /gamerule doMobSpawning false
+[14:19:32] [Server thread/INFO]: [Refif: Game rule has been updated]
+[14:19:39] [Server thread/INFO]: Refif issued server command: /kill @e
+[14:19:39] [Server thread/INFO]: Refif fell out of the world
+[14:19:39] [Server thread/INFO]: [Refif: Killed Refif]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Spider]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Spider]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Skeleton]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Zombie]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Zombie]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Creeper]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Creeper]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Spider]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Zombie]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Spider]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Skeleton]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Skeleton]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Creeper]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Creeper]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Skeleton]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Skeleton]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Spider]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Creeper]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Zombie]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Creeper]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Skeleton]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Creeper]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Creeper]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Creeper]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Creeper]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Skeleton]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Skeleton]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Skeleton]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Zombie]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Zombie]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Creeper]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Slime]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Creeper]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Slime]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Zombie]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Spider]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Creeper]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Spider]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Creeper]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Spider]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Spider]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Enderman]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Spider]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Spider]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Creeper]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Spider]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Slime]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Slime]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Slime]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Slime]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Spider]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Skeleton]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Enderman]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Spider]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Spider]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Creeper]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Zombie]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Creeper]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Creeper]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Spider]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Creeper]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Zombie]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Spider]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Spider]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Enderman]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Spider]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Slime]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Slime]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Slime]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Slime]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Enderman]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Slime]
+[14:19:39] [Server thread/INFO]: [Refif: Killed Slime]
+[14:19:43] [Server thread/INFO]: Refif issued server command: /back
+[14:19:46] [Server thread/INFO]: Refif issued server command: /back
+[14:19:54] [Thread-15/INFO]: UUID of player Redyr_tsziw is 6336fb35-6e56-3e4d-a0ef-a69c35ca53a9
+[14:19:54] [Server thread/INFO]: Redyr_tsziw[/[0:0:0:0:0:0:0:1]:55160] logged in with entity id 97271 at ([world]1121.5382168869055, 75.41487188846727, -642.3031687549968)
+[14:20:03] [pool-4-thread-7/WARN]: [LoginSecurity] Updater was in unexpected state, please report on https://github.com/lenis0012/LoginSecurity-2/issues
+[14:20:08] [Server thread/INFO]: Redyr_tsziw fell out of the world
+[14:20:15] [Server thread/INFO]: Redyr_tsziw fell out of the world
+[14:20:22] [Server thread/INFO]: Refif issued server command: /tp REdyr_Tsziw refif
+[14:20:22] [Server thread/INFO]: [Refif: Teleported Redyr_tsziw to Refif]
+[14:20:26] [Server thread/INFO]: Refif issued server command: /tp REdyr_Tsziw refif
+[14:20:26] [Server thread/INFO]: [Refif: Teleported Redyr_tsziw to Refif]
+[14:20:43] [Server thread/INFO]: Redyr_tsziw issued server command: /bw help
+[14:21:01] [Server thread/INFO]: Refif issued server command: /bw help
+[14:21:27] [Async Chat Thread - #0/INFO]: <Refif> i gtg[m
+
+[14:21:37] [Server thread/INFO]: Refif lost connection: Disconnected
+[14:21:37] [Server thread/INFO]: Refif left the game.
+[14:21:49] [Async Chat Thread - #0/INFO]: <Redyr_tsziw> we need to make a main lobby[m
+
+[14:22:31] [Thread-16/INFO]: UUID of player Refif is 8a1c397c-4578-3837-9c12-d19b9b0d6f8a
+[14:22:31] [Server thread/INFO]: Refif[/[0:0:0:0:0:0:0:1]:55978] logged in with entity id 97284 at ([world]1105.0, 4.0, -712.0)
+[14:22:36] [pool-4-thread-8/WARN]: [LoginSecurity] Updater was in unexpected state, please report on https://github.com/lenis0012/LoginSecurity-2/issues
+[14:22:57] [Async Chat Thread - #1/INFO]: <Redyr_tsziw> how many players are in each group?[m
+
+[14:23:06] [Async Chat Thread - #1/INFO]: <Refif> its customizable[m
+
+[14:23:19] [Async Chat Thread - #1/INFO]: <Redyr_tsziw> but how much do we want right now?[m
+
+[14:23:25] [Async Chat Thread - #1/INFO]: <Redyr_tsziw> just 2s or solos[m
+
+[14:23:27] [Async Chat Thread - #1/INFO]: <Refif> 1[m
+
+[14:23:29] [Async Chat Thread - #1/INFO]: <Refif> solos[m
+
+[14:23:30] [Async Chat Thread - #1/INFO]: <Redyr_tsziw> ok[m
+
+[14:23:34] [Async Chat Thread - #1/INFO]: <Refif> i gtg[m
+
+[14:23:37] [Async Chat Thread - #1/INFO]: <Refif> i have testing[m
+
+[14:23:39] [Server thread/INFO]: Refif lost connection: Disconnected
+[14:23:39] [Server thread/INFO]: Refif left the game.
+[14:24:42] [Server thread/INFO]: Redyr_tsziw issued server command: /bw admin Original add
+[14:27:54] [Thread-17/INFO]: UUID of player Refif is 8a1c397c-4578-3837-9c12-d19b9b0d6f8a
+[14:27:54] [Server thread/INFO]: Refif[/[0:0:0:0:0:0:0:1]:36686] logged in with entity id 97286 at ([world]1105.0, 4.0, -712.0)
+[14:27:58] [pool-4-thread-9/WARN]: [LoginSecurity] Updater was in unexpected state, please report on https://github.com/lenis0012/LoginSecurity-2/issues
+[14:31:01] [Server thread/INFO]: Redyr_tsziw issued server command: /bw admin Original team add white white 1
+[14:31:34] [Server thread/INFO]: Refif issued server command: /bw help
+[14:31:53] [Server thread/INFO]: Redyr_tsziw issued server command: /bw admin Original team add Blue Blue
+[14:32:33] [Server thread/INFO]: Redyr_tsziw issued server command: /bw admin Original team add blue BLUE 1
+[14:32:41] [Server thread/INFO]: Refif issued server command: /bw admin Main team add Black Black 4
+[14:33:03] [Server thread/INFO]: Redyr_tsziw issued server command: /bw admin Original team add Red RED 1
+[14:33:34] [Server thread/INFO]: Redyr_tsziw issued server command: /bw admin Original team add black BLACK 1
+[14:34:01] [Server thread/INFO]: Refif issued server command: /bw admin solos add
+[14:34:31] [Server thread/INFO]: Refif issued server command: /bw admin solos pos 1 1093 95 -698
+[14:34:39] [Server thread/INFO]: Refif issued server command: /bw admin solos pos1 1093 95 -698
+[14:35:13] [Server thread/INFO]: Refif issued server command: /bw admin solos pos2 1154 66 -637
+[14:35:24] [Async Chat Thread - #2/INFO]: <Refif> i made the arean name solos[m
+
+[14:35:45] [Server thread/INFO]: Refif issued server command: /bw admin solos team add Black Black 4
+[14:36:29] [Server thread/INFO]: Redyr_tsziw issued server command: /bw admin Original team spawn black
+[14:36:29] [Server thread/INFO]: Refif issued server command: /bw admin solos spawner add iron
+[14:36:37] [Server thread/INFO]: Refif issued server command: /bw admin solos spawner add iron
+[14:36:38] [Server thread/INFO]: Refif issued server command: /bw admin solos spawner add iron
+[14:36:50] [Async Chat Thread - #3/INFO]: <Redyr_tsziw> what doesthe pos1 and pos2 mean>[m
+
+[14:36:59] [Server thread/INFO]: Refif issued server command: /bw admin spawner reset
+[14:37:05] [Server thread/INFO]: Refif issued server command: /bw admin solos spawner reset
+[14:37:52] [Server thread/INFO]: Redyr_tsziw issued server command: /bw help
+[14:38:01] [Server thread/INFO]: Refif issued server command: /bw admin solos pos1 1093 95 -710
+[14:38:20] [Server thread/INFO]: Refif issued server command: /bw admin solos pos2 1154 66 -625
+[14:38:27] [Async Chat Thread - #4/INFO]: <Redyr_tsziw> what doesthe pos1 and pos2 mean>[m
+
+[14:38:38] [Async Chat Thread - #4/INFO]: <Refif> that means how big the areana is[m
+
+[14:38:44] [Async Chat Thread - #4/INFO]: <Redyr_tsziw> ok[m
+
+[14:38:54] [Server thread/INFO]: Refif issued server command: /bw admin solos pos2 1164 66 -625
+[14:39:09] [Server thread/INFO]: Refif issued server command: /bw admin solos pos1 1080 95 -710
+[14:39:21] [Server thread/INFO]: Refif issued server command: /bw admin solos pos2 1164 66 -625
+[14:40:00] [Server thread/INFO]: Refif issued server command: /bw admin solos pos2 1089 85 -704
+[14:40:10] [Server thread/INFO]: Refif issued server command: /bw admin solos pos2 1089 60 -704
+[14:40:15] [Server thread/INFO]: Refif issued server command: /bw admin solos pos2 1089 50 -704
+[14:40:21] [Server thread/INFO]: Refif issued server command: /bw admin solos pos2 1089 90 -704
+[14:40:26] [Server thread/INFO]: Refif issued server command: /bw admin solos pos2 1089 95 -704
+[14:40:42] [Async Chat Thread - #5/INFO]: <Refif> i gtg, can you change the positions? i messed them up[m
+
+[14:40:43] [Server thread/INFO]: Refif lost connection: Disconnected
+[14:40:43] [Server thread/INFO]: Refif left the game.
+[14:40:53] [Server thread/INFO]: Redyr_tsziw lost connection: Disconnected
+[14:40:53] [Server thread/INFO]: Redyr_tsziw left the game.
+[14:51:37] [Thread-19/INFO]: UUID of player B1_28 is e57ce2e0-799d-33c4-b070-6338735c1d42
+[14:51:37] [Server thread/INFO]: B1_28[/[0:0:0:0:0:0:0:1]:49644] logged in with entity id 97306 at ([world]1105.0, 4.0, -712.0)
+[14:51:45] [pool-4-thread-10/WARN]: [LoginSecurity] Updater was in unexpected state, please report on https://github.com/lenis0012/LoginSecurity-2/issues
+[15:02:54] [Server thread/INFO]: B1_28 lost connection: Disconnected
+[15:02:54] [Server thread/INFO]: B1_28 left the game.
+[15:08:19] [Thread-21/INFO]: UUID of player Refif is 8a1c397c-4578-3837-9c12-d19b9b0d6f8a
+[15:08:19] [Server thread/INFO]: Refif[/[0:0:0:0:0:0:0:1]:40524] logged in with entity id 97307 at ([world]1105.0, 4.0, -712.0)
+[15:08:26] [pool-4-thread-11/WARN]: [LoginSecurity] Updater was in unexpected state, please report on https://github.com/lenis0012/LoginSecurity-2/issues
+[15:08:35] [Server thread/INFO]: Refif issued server command: /bw help
+[15:09:27] [Server thread/INFO]: Refif lost connection: Disconnected
+[15:09:27] [Server thread/INFO]: Refif left the game.
+[15:21:05] [Thread-22/INFO]: UUID of player Tedo_Burrito is 138c174b-a8d9-3615-8acd-97b882e81619
+[15:21:05] [Server thread/INFO]: Tedo_Burrito[/[0:0:0:0:0:0:0:1]:36666] logged in with entity id 97312 at ([world]1131.3290200781767, 78.0, -669.1957363069852)
+[15:21:10] [pool-4-thread-12/WARN]: [LoginSecurity] Updater was in unexpected state, please report on https://github.com/lenis0012/LoginSecurity-2/issues
+[15:21:19] [Server thread/INFO]: Tedo_Burrito fell out of the world
+[15:32:45] [Server thread/INFO]: Tedo_Burrito issued server command: /give Tedo_Burrito barrier
+[15:32:45] [Server thread/INFO]: [Tedo_Burrito: Given [Barrier] * 1 to Tedo_Burrito]
+[15:35:51] [Thread-24/INFO]: UUID of player Refif is 8a1c397c-4578-3837-9c12-d19b9b0d6f8a
+[15:35:51] [Server thread/INFO]: Refif[/[0:0:0:0:0:0:0:1]:57302] logged in with entity id 97324 at ([world]1105.0, 4.0, -712.0)
+[15:35:56] [pool-4-thread-13/WARN]: [LoginSecurity] Updater was in unexpected state, please report on https://github.com/lenis0012/LoginSecurity-2/issues
+[15:36:32] [Async Chat Thread - #6/INFO]: <Refif> it burtn down here[m
+
+[15:36:40] [Async Chat Thread - #6/INFO]: <Tedo_Burrito> ik[m
+
+[15:36:46] [Async Chat Thread - #6/INFO]: <Refif> k[m
+
+[15:36:58] [Async Chat Thread - #6/INFO]: <Refif> did u build this granite tihng[m
+
+[15:37:02] [Async Chat Thread - #6/INFO]: <Tedo_Burrito> nah[m
+
+[15:37:03] [Async Chat Thread - #6/INFO]: <Refif> or did ryder[m
+
+[15:37:05] [Async Chat Thread - #6/INFO]: <Tedo_Burrito> idk[m
+
+[15:37:22] [Async Chat Thread - #6/INFO]: <Refif> prolly ryder, i asked him to set the arena size[m
+
+[15:37:31] [Async Chat Thread - #6/INFO]: <Tedo_Burrito> i feel like the lava is making me laggier[m
+
+[15:37:36] [Async Chat Thread - #6/INFO]: <Refif> it does[m
+
+[15:38:17] [Server thread/INFO]: Refif issued server command: /bw help
+[15:39:23] [Async Chat Thread - #7/INFO]: <Tedo_Burrito> that looks good[m
+
+[15:39:29] [Async Chat Thread - #7/INFO]: <Refif> yeah[m
+
+[15:39:52] [Async Chat Thread - #7/INFO]: <Refif> are u gonna be on in 2 period[m
+
+[15:40:07] [Async Chat Thread - #7/INFO]: <Tedo_Burrito> depending on the assignment we have in science i think i can[m
+
+[15:40:11] [Async Chat Thread - #7/INFO]: <Refif> k[m
+
+[15:40:13] [Server thread/INFO]: Refif lost connection: Disconnected
+[15:40:13] [Server thread/INFO]: Refif left the game.
+[15:44:51] [Server thread/INFO]: Tedo_Burrito lost connection: Disconnected
+[15:44:51] [Server thread/INFO]: Tedo_Burrito left the game.
+[16:06:03] [Thread-26/INFO]: UUID of player Refif is 8a1c397c-4578-3837-9c12-d19b9b0d6f8a
+[16:06:03] [Server thread/INFO]: Refif[/[0:0:0:0:0:0:0:1]:50100] logged in with entity id 97327 at ([world]1105.0, 4.0, -712.0)
+[16:06:09] [pool-4-thread-14/WARN]: [LoginSecurity] Updater was in unexpected state, please report on https://github.com/lenis0012/LoginSecurity-2/issues
+[16:06:27] [Server thread/INFO]: Refif issued server command: /bw help
+[16:06:51] [Server thread/INFO]: Refif issued server command: /bw admin solos save
+[16:07:18] [Server thread/INFO]: Refif issued server command: /bw admin solos team bed Black
+[16:07:50] [Server thread/INFO]: Refif issued server command: /bw admin solos pos1 1093 90 -700
+[16:07:56] [Server thread/INFO]: Refif issued server command: /bw admin solos pos2 1093 90 -700
+[16:08:24] [Server thread/INFO]: Refif issued server command: /bw admin solos pos1 1170 60 -630
+[16:08:35] [Server thread/INFO]: Refif issued server command: /bw admin solos team bed Black
+[16:08:43] [Server thread/INFO]: Refif issued server command: /bw admin solos team bed Black
+[16:08:49] [Server thread/INFO]: Refif issued server command: /bw admin solos save
+[16:09:21] [Server thread/INFO]: Refif issued server command: /bw admin solos team spawn black
+[16:09:26] [Server thread/INFO]: Refif issued server command: /bw admin solos team spawn Black
+[16:10:02] [Server thread/INFO]: Refif issued server command: /bw admin solos team spawn Black
+[16:10:37] [Server thread/INFO]: Refif issued server command: /bw admin solos save
+[16:11:26] [Server thread/INFO]: Refif issued server command: /bw admin solos store type Villager
+[16:11:57] [Server thread/INFO]: Refif issued server command: /bw admin solos store add Black
+[16:12:05] [Server thread/INFO]: Refif issued server command: /bw admin solos store add Black
+[16:12:41] [Server thread/INFO]: Refif issued server command: /bw admin solos store type Horse
+[16:12:48] [Server thread/INFO]: Refif issued server command: /bw admin solos store type Villager
+[16:15:09] [Server thread/INFO]: Refif issued server command: /rg i
+[16:15:45] [Server thread/INFO]: Refif issued server command: /gamerule doMobSpawning true
+[16:15:45] [Server thread/INFO]: [Refif: Game rule has been updated]
+[16:15:56] [Server thread/INFO]: Refif issued server command: /bw admin solos store type Villager
+[16:16:00] [Server thread/INFO]: Refif issued server command: /bw admin solos store add Black
+[16:16:10] [Server thread/INFO]: Refif issued server command: /bw admin solos store add Blacks
+[16:16:16] [Server thread/INFO]: Refif issued server command: /bw admin solos store add B
+[16:16:18] [Server thread/INFO]: Refif issued server command: /bw admin solos store add B
+[16:17:16] [Server thread/INFO]: Refif issued server command: /gamerule doMobSpawning false
+[16:17:16] [Server thread/INFO]: [Refif: Game rule has been updated]
+[16:17:21] [Server thread/INFO]: Refif issued server command: /kill @m
+[16:17:21] [Server thread/INFO]: [Refif: The entity UUID provided is in an invalid format]
+[16:17:24] [Server thread/INFO]: Refif issued server command: /kill @e
+[16:17:24] [Server thread/INFO]: Refif fell out of the world
+[16:17:24] [Server thread/INFO]: [Refif: Killed Refif]
+[16:17:24] [Server thread/INFO]: [Refif: Killed Creeper]
+[16:17:24] [Server thread/INFO]: [Refif: Killed Creeper]
+[16:17:24] [Server thread/INFO]: [Refif: Killed Spider]
+[16:17:24] [Server thread/INFO]: [Refif: Killed Zombie]
+[16:17:24] [Server thread/INFO]: [Refif: Killed Spider]
+[16:17:24] [Server thread/INFO]: [Refif: Killed Skeleton]
+[16:17:24] [Server thread/INFO]: [Refif: Killed Skeleton]
+[16:17:24] [Server thread/INFO]: [Refif: Killed Creeper]
+[16:17:24] [Server thread/INFO]: [Refif: Killed Skeleton]
+[16:17:24] [Server thread/INFO]: [Refif: Killed Skeleton]
+[16:17:24] [Server thread/INFO]: [Refif: Killed Skeleton]
+[16:17:24] [Server thread/INFO]: [Refif: Killed Creeper]
+[16:17:24] [Server thread/INFO]: [Refif: Killed Skeleton]
+[16:17:24] [Server thread/INFO]: [Refif: Killed Skeleton]
+[16:17:24] [Server thread/INFO]: [Refif: Killed Zombie]
+[16:17:24] [Server thread/INFO]: [Refif: Killed Skeleton]
+[16:17:24] [Server thread/INFO]: [Refif: Killed Skeleton]
+[16:17:24] [Server thread/INFO]: [Refif: Killed Creeper]
+[16:17:24] [Server thread/INFO]: [Refif: Killed Skeleton]
+[16:17:24] [Server thread/INFO]: [Refif: Killed Creeper]
+[16:17:24] [Server thread/INFO]: [Refif: Killed Zombie]
+[16:17:24] [Server thread/INFO]: [Refif: Killed Zombie]
+[16:17:24] [Server thread/INFO]: [Refif: Killed Spider]
+[16:17:24] [Server thread/INFO]: [Refif: Killed Creeper]
+[16:17:24] [Server thread/INFO]: [Refif: Killed Spider]
+[16:17:24] [Server thread/INFO]: [Refif: Killed Zombie]
+[16:17:24] [Server thread/INFO]: [Refif: Killed Skeleton]
+[16:17:24] [Server thread/INFO]: [Refif: Killed Skeleton]
+[16:17:24] [Server thread/INFO]: [Refif: Killed Slime]
+[16:17:24] [Server thread/INFO]: [Refif: Killed Creeper]
+[16:17:24] [Server thread/INFO]: [Refif: Killed Skeleton]
+[16:17:24] [Server thread/INFO]: [Refif: Killed Slime]
+[16:17:24] [Server thread/INFO]: [Refif: Killed Slime]
+[16:17:24] [Server thread/INFO]: [Refif: Killed Slime]
+[16:17:24] [Server thread/INFO]: [Refif: Killed Slime]
+[16:17:24] [Server thread/INFO]: [Refif: Killed Slime]
+[16:17:24] [Server thread/INFO]: [Refif: Killed Slime]
+[16:17:24] [Server thread/INFO]: [Refif: Killed Slime]
+[16:17:24] [Server thread/INFO]: [Refif: Killed Slime]
+[16:17:24] [Server thread/INFO]: [Refif: Killed Slime]
+[16:17:24] [Server thread/INFO]: [Refif: Killed Slime]
+[16:17:24] [Server thread/INFO]: [Refif: Killed Slime]
+[16:17:24] [Server thread/INFO]: [Refif: Killed Slime]
+[16:17:24] [Server thread/INFO]: [Refif: Killed Slime]
+[16:17:28] [Server thread/INFO]: Refif issued server command: /back
+[16:18:30] [Server thread/INFO]: Refif issued server command: /bw help
+[16:18:45] [Server thread/INFO]: Refif issued server command: /bw admin solos team add White White 4
+[16:19:23] [Server thread/INFO]: Refif issued server command: /bw admin team spawn White
+[16:19:28] [Server thread/INFO]: Refif issued server command: /bw admin solos team spawn White
+[16:19:50] [Server thread/INFO]: Refif issued server command: /bw admin solos team bed white
+[16:19:53] [Server thread/INFO]: Refif issued server command: /bw admin solos team bed White
+[16:20:50] [Server thread/INFO]: Refif issued server command: /bw admin solos spawner add iron

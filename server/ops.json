@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "uuid": "8a1c397c-4578-3837-9c12-d19b9b0d6f8a",
+    "name": "Refif",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "138c174b-a8d9-3615-8acd-97b882e81619",
+    "name": "Tedo_Burrito",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "6336fb35-6e56-3e4d-a0ef-a69c35ca53a9",
+    "name": "Redyr_tsziw",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "e57ce2e0-799d-33c4-b070-6338735c1d42",
+    "name": "B1_28",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
